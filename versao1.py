@@ -1,3 +1,4 @@
+# Variável que armazena o valor que será exibido na tela.
 menu = """
 Escolha uma operação
 
@@ -8,12 +9,13 @@ Escolha uma operação
 
 => """
 
+# Declaração de variáveis
 LIMITE = 500  
 limite_saques = 3
 saldo = 0
 saque = 0
 extrato = ""
-
+    
 while True:
     opcao = int(input(menu))
 
